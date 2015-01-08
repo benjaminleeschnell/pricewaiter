@@ -173,6 +173,9 @@ a:hover{text-decoration: none;}
 
 .bg-chattanooga-bridge1{
 	background-image:url('img/chattanooga-bridge1.jpg');
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
 }
 
 /* NavBar */
