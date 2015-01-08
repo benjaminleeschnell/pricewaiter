@@ -172,7 +172,11 @@ a:hover{text-decoration: none;}
 /* Bloc image backgrounds */
 
 .bg-chattanooga-bridge1{
-	background-image:url('img/chattanooga-bridge1.jpg');
+	background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),url('img/chattanooga-bridge1.jpg');
 }
 
 /* NavBar */
