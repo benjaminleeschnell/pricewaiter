@@ -170,7 +170,7 @@ a:hover{text-decoration: none;}
 }
 .navbar-brand img{
 	width: auto;
-	max-height: 200px;
+	max-height: 100px;
 	margin: 0 5px 0 0;
 }
 .navbar-brand{
