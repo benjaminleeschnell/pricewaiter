@@ -122,13 +122,13 @@ a:hover{text-decoration: none;}
 	background-color:#f5f8fb;
 }
 #impact{
-	background-color:#2a7aae;
+	background-color:#3D88CE;
 }
 #nav-bloc,#video{
 	background-color:#f5f8fb;
 }
 #footer{
-	background-color:#2a7aae;
+	background-color:#3D88CE;
 }
 #hero-bloc h1{
 	font-size: 50px;
@@ -174,9 +174,9 @@ a:hover{text-decoration: none;}
 .bg-chattanooga-bridge1{
 	background-image:
     linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ),url('img/chattanooga-bridge1.jpg');
+      rgba(61, 136, 206, 0.7),
+      rgba(61, 136, 206, 0.7)
+    ),url('img/accolades-1.jpg');
 }
 
 /* NavBar */
