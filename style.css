@@ -108,9 +108,6 @@ a:hover{text-decoration: none;}
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
 }
-.voffset{
-	margin-top:30px;
-}
 
 
 /* Custom bloc styling */
@@ -118,36 +115,29 @@ a:hover{text-decoration: none;}
 #hero-bloc{
 	background-color:#151416;
 }
-#bloc-2{
+#nav-bloc,#story,#video{
 	background-color:#f5f8fb;
 }
 #impact{
-	background-color:#3D88CE;
-}
-#nav-bloc,#video{
-	background-color:#f5f8fb;
+	background-color:#2a7aae;
 }
 #footer{
-	background-color:#3D88CE;
+	background-color:#2a7aae;
 }
 #hero-bloc h1{
 	font-size: 50px;
-	text-shadow: rgba(0, 0, 0, 0.498039) 0px 2px 5px;
 	font-family: Lato;
 	font-weight: 700;
+	text-shadow: rgba(0, 0, 0, 0.498039) 0px 2px 5px;
 }
 #hero-bloc h3{
 	font-size: 30px;
 	text-shadow: rgba(0, 0, 0, 0.498039) 0px 2px 5px;
 }
-#bloc-2 h1{
-	font-family: Lato;
-	font-weight: 700;
-	font-size: 52px;
+#story h2{
+	font-size: 60px;
 }
-#bloc-2 p{
-	font-weight: 700;
-	font-family: Helvetica;
+#story p{
 	font-size: 28px;
 }
 #impact h3{
@@ -166,14 +156,14 @@ a:hover{text-decoration: none;}
 #video p{
 	font-weight: 300;
 	font-family: Helvetica;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 /* Bloc image backgrounds */
 
-.bg-chattanooga-bridge1{
-	background-image:
-    linear-gradient(
+.bg-accolades-1{
+	background-image: 
+linear-gradient(
       rgba(61, 136, 206, 0.7),
       rgba(61, 136, 206, 0.7)
     ),url('img/accolades-1.jpg');
@@ -187,14 +177,14 @@ a:hover{text-decoration: none;}
 .navbar-brand{
 	height:auto;
 	padding:15px 15px;
-	font-size:25px;
+	font-size:25px!important;
 	font-weight:normal;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:600;
 }
 .navbar-brand img{
 	width: auto;
-	max-height: 50px;
+	max-height: 200px;
 	margin: 0 5px 0 0;
 }
 .navbar-brand{
@@ -224,6 +214,14 @@ a:hover{text-decoration: none;}
 	background-color: rgba(0,0,0,.5);
 	width: 26px;
 }
+ /* Inverted navbar */
+
+.nav-invert .navbar .nav{
+	float:left;
+}
+.nav-invert .navbar-header, .nav-invert .navbar-brand{
+	float:right;
+}
  @media (min-width: 768px){
 	.site-navigation{
 	position: absolute;
@@ -231,6 +229,10 @@ a:hover{text-decoration: none;}
 	 right:20px;
 	transform: translate(0, -50%);
 	-webkit-transform:translateY(-50%);
+}
+.nav-invert .site-navigation{
+	left:20px;
+	right:0;
 }
 }
 /* Hero bloc */
@@ -281,6 +283,10 @@ a:hover{text-decoration: none;}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
 }
 
 /* Buttons */
@@ -342,6 +348,11 @@ a:hover{text-decoration: none;}
 
 
 
+/*iFrame*/
+
+iframe{
+	border:0;
+}
 
 
 /* Mobile adjustments */
@@ -397,6 +408,13 @@ a:hover{text-decoration: none;}
         max-height: 40px;
         width:auto;
         margin: -10px 5px 0 0;    
+    }
+    .nav-invert .navbar-header{
+        float: none;
+        width:100%;
+    }
+    .nav-invert .navbar-toggle{
+        float:left; 
     }
     .btn.pull-left, .btn.pull-right{
        float:none!important; 
