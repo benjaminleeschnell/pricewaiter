@@ -140,11 +140,16 @@ a:hover{text-decoration: none;}
 #story p{
 	font-size: 28px;
 }
-#impact h3{
-	font-size: 32px;
+
+#story a {
+	text-decoration: underline;
 }
-#impact p{
-	font-size: 18px;
+
+#impact h3{
+	font-size: 36px;
+}
+#impact li{
+	font-size: 21px;
 	font-family: Lato;
 	font-weight: 700;
 }
